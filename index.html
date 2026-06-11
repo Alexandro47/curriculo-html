@@ -1,38 +1,125 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Alexandro Gomes - Estudante ADS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandro Araújo Gomes - Desenvolvedor</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
-        h1 { color: #0056b3; border-bottom: 2px solid #0056b3; padding-bottom: 10px; }
-        h2 { color: #333; margin-top: 25px; }
-        .contato { background: #f4f4f4; padding: 15px; border-left: 4px solid #0056b3; margin: 20px 0; }
-        .tag { background: #0056b3; color: white; padding: 4px 10px; border-radius: 4px; font-size: 13px; margin-right: 5px; display: inline-block; }
-        a { color: #0056b3; text-decoration: none; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.7; color: #2d3748; background: #edf2f7; padding: 20px; }
+        .cv { max-width: 850px; margin: 0 auto; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        header { background: #1a365d; color: white; padding: 35px 40px; }
+        header h1 { font-size: 2.2em; letter-spacing: 1px; margin-bottom: 8px; }
+        .header-info { font-size: 0.95em; opacity: 0.9; line-height: 1.8; }
+        .header-info a { color: #90cdf4; text-decoration: none; }
+        main { padding: 30px 40px; }
+        section { margin-bottom: 30px; }
+        h2 { color: #1a365d; font-size: 1.3em; margin-bottom: 12px; border-bottom: 2px solid #1a365d; padding-bottom: 5px; text-transform: uppercase; }
+        h3 { color: #2d3748; font-size: 1.1em; margin-bottom: 3px; }
+        .periodo { color: #718096; font-size: 0.9em; font-style: italic; margin-bottom: 8px; }
+        ul { margin-left: 20px; }
+        li { margin-bottom: 6px; }
+        .tags { margin-top: 10px; }
+        .tag { display: inline-block; background: #e2e8f0; color: #1a365d; padding: 4px 12px; border-radius: 15px; font-size: 0.85em; margin: 3px 5px 3px 0; font-weight: 500; }
+        .projeto { background: #f7fafc; border-left: 4px solid #1a365d; padding: 15px; margin: 15px 0; }
+        .projeto a { color: #1a365d; font-weight: bold; }
+        .destaque { background: #fffaf0; padding: 15px; border: 1px solid #f6e05e; border-radius: 4px; margin-top: 10px; }
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            header, main { padding: 25px; }
+            header h1 { font-size: 1.8em; }
+        }
     </style>
 </head>
 <body>
-    <h1>ALEXANDRO ARAÚJO GOMES</h1>
-    <div class="contato">
-        <p><strong>Estudante de Análise e Desenvolvimento de Sistemas</strong></p>
-        <p>49 anos | Em transição de carreira | Rio de Janeiro - RJ</p>
-        <p>📱 (21) 99506-7915 | 📧 xandrosouza@gmail.com</p>
-        <p>💻 GitHub: <a href="https://github.com/Alexandro47" target="_blank">github.com/Alexandro47</a> | 
-           LinkedIn: <a href="https://www.linkedin.com/in/xandaogomes57984sa" target="_blank">linkedin.com/in/xandaogomes57984sa</a></p>
+    <div class="cv">
+        <header>
+            <h1>ALEXANDRO ARAÚJO GOMES</h1>
+            <div class="header-info">
+                Bento Ribeiro, Rio de Janeiro – RJ | (21) 99506-7915 | xandrosouza@gmail.com<br>
+                LinkedIn: <a href="https://www.linkedin.com/in/xandaogomes57984sa" target="_blank">linkedin.com/in/xandaogomes57984sa</a> | 
+                GitHub: <a href="https://github.com/Alexandro47" target="_blank">github.com/Alexandro47</a>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h2>Objetivo</h2>
+                <p><strong>Estágio em Desenvolvimento de Sistemas | Suporte Técnico | Área de TI</strong></p>
+                <p>Estudante de Análise e Desenvolvimento de Sistemas, 49 anos, em transição de carreira. Profissional com 20 anos de experiência em logística e operações. Busco primeira oportunidade em tecnologia para unir responsabilidade, raciocínio lógico e vontade de aprender.</p>
+                <p><strong>Disponibilidade:</strong> Híbrido ou Home Office.</p>
+            </section>
+
+            <section>
+                <h2>Formação Acadêmica</h2>
+                <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas – Cursando</h3>
+                <p class="periodo">Universidade Estácio | Previsão de Conclusão: Dez/2027</p>
+            </section>
+
+            <section>
+                <h2>Competências Técnicas</h2>
+                <div class="tags">
+                    <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Python Básico</span>
+                    <span class="tag">SQL Básico</span><span class="tag">Lógica de Programação</span><span class="tag">Git</span>
+                    <span class="tag">GitHub</span><span class="tag">Windows</span><span class="tag">Linux</span>
+                    <span class="tag">Pacote Office Avançado</span><span class="tag">Montagem de Micros</span>
+                    <span class="tag">Configuração de Redes</span><span class="tag">CNH D</span>
+                </div>
+            </section>
+
+            <section>
+                <h2>Projetos</h2>
+                <div class="projeto">
+                    <h3>Currículo Online | <a href="https://github.com/Alexandro47/curriculo-html" target="_blank">github.com/Alexandro47/curriculo-html</a></h3>
+                    <p>Desenvolvimento de página web responsiva para apresentar currículo profissional. Aplicados conceitos de HTML semântico, CSS e versionamento com Git.</p>
+                    <p><strong>Acesse:</strong> <a href="https://alexandro47.github.io/curriculo-html" target="_blank">alexandro47.github.io/curriculo-html</a></p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Experiência Profissional</h2>
+                
+                <h3>Operações de Rota – Motorista de Caminhão</h3>
+                <p class="periodo">Bazar Luveca Materiais de Construção | Fev/2020 a Set/2023</p>
+                <ul>
+                    <li>Gestão de rotas de entrega e controle de carga para 5+ bairros do Rio de Janeiro</li>
+                    <li>Responsável por cumprir prazos e garantir integridade dos materiais, reduzindo avarias em 15% com uso de checklists</li>
+                    <li>Resolução de imprevistos em campo e atendimento direto ao cliente final</li>
+                    <li><strong>Habilidades:</strong> Gestão de tempo, análise de problemas, comunicação, trabalho sob pressão</li>
+                </ul>
+
+                <h3>Operações de Transporte – Motorista de Ônibus</h3>
+                <p class="periodo">Viação Novacap e Auto Viação Tijuca | Fev/2018 a Set/2018</p>
+                <ul>
+                    <li>Condução de veículos com foco em segurança, seguindo normas técnicas e de trânsito</li>
+                    <li>Transporte de 200+ passageiros/dia com responsabilidade sobre horários e rotas</li>
+                    <li>Operação de sistemas de bordo e reporte técnico para equipe de manutenção</li>
+                </ul>
+
+                <h3>Auxiliar de Reprodução</h3>
+                <p class="periodo">Mobilita Comércio Indústria e Representações | Mai/2000 a Jan/2002</p>
+                <ul>
+                    <li>Operação de equipamentos de impressão e controle de qualidade em materiais técnicos</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Cursos Complementares</h2>
+                <ul>
+                    <li>Montagem de Microcomputador e Manutenção de Redes</li>
+                    <li>Informática Avançada: Windows, Word, Excel</li>
+                    <li>Mecânica Geral | Noções de Eletrotécnica Aplicada a Instalações Elétricas | Encanador Hidráulico</li>
+                    <li>Formação de Vigilante</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Perfil Profissional</h2>
+                <div class="destaque">
+                    <p>Em transição para a área de tecnologia após 20 anos de experiência com operações, prazos e logística. Minha trajetória profissional desenvolveu em mim comprometimento, iniciativa para solução de problemas e resiliência. Tenho amor por aprender e busco uma empresa para crescer junto, contribuindo com maturidade e dedicação integral ao novo desafio.</p>
+                </div>
+            </section>
+        </main>
     </div>
-
-    <h2>Objetivo</h2>
-    <p>Estágio em Desenvolvimento de Sistemas. Busco aplicar minha experiência de 20 anos em logística com a nova jornada em tecnologia.</p>
-
-    <h2>Habilidades Técnicas</h2>
-    <p>
-        <span class="tag">HTML5</span> <span class="tag">CSS3</span> <span class="tag">Git</span> 
-        <span class="tag">GitHub</span> <span class="tag">SQL Básico</span> <span class="tag">Python Básico</span>
-    </p>
-
-    <h2>Sobre mim</h2>
-    <p>Profissional em recomeço na tecnologia. Trago na bagagem responsabilidade, cumprimento de prazos e amor por aprender. Busco meu primeiro "sim" na área de TI.</p>
 </body>
 </html>
